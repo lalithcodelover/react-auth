@@ -60,7 +60,8 @@ else {
         </div>
         <div className={classes.actions}>
           {!isCorrect && <button>{isLogin ? 'Login' : 'Create Account'}</button>}
-          {isCorrect && <p>Sending Request...</p>}
+          {isCorrect && <p>Sending Request.....</p>}
+          
           <button
             type='button'
             className={classes.toggle}
