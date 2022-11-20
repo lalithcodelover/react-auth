@@ -8,6 +8,7 @@ import HomePage from './pages/HomePage';
 function App() {
   return (
     <Layout>
+      
       <Switch>
         <Route path='/' exact>
           <HomePage />
@@ -19,6 +20,7 @@ function App() {
           <UserProfile />
         </Route>
       </Switch>
+      
     </Layout>
   );
 }
