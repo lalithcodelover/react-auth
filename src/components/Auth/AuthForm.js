@@ -9,7 +9,7 @@ const AuthForm = () => {
   const [isCorrect, setIsCorrect] = useState(false);
 
   const authCtx = useContext(AuthContext)
-
+//
   const emailInputRef = useRef("");
   const passwordInputRef = useRef("");
   const switchAuthModeHandler = () => {
