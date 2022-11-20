@@ -50,7 +50,7 @@ const history = useHistory()
         } else {
           return res.json().then((data) => {
             let errorMessage = "Authentication Failed";
-            alert(errorMessage);
+            
             throw new Error(errorMessage);
           });
         }
